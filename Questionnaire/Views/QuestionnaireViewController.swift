@@ -50,10 +50,9 @@ class QuestionnaireViewController: UIViewController {
 		layout.minimumLineSpacing = 0
 		layout.minimumInteritemSpacing = 0
 		
-		collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height), collectionViewLayout: layout)
-		
 		let questionCollectionViewCell = UINib(nibName: "QuestionCollectionViewCell", bundle: Bundle(for: type(of: self)))
 		
+		collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height), collectionViewLayout: layout)
 		collectionView.register(questionCollectionViewCell, forCellWithReuseIdentifier: "QuestionCollectionViewCell")
 		collectionView.delegate = self
 		collectionView.dataSource = self

@@ -17,6 +17,8 @@ target 'Questionnaire' do
   target 'QuestionnaireUITests' do
     inherit! :search_paths
     # Pods for testing
+		
+    pod 'Alamofire'
   end
 
 end
