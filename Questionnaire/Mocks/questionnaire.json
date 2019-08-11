@@ -1,0 +1,58 @@
+{
+    "questionnaire": [
+      {
+      	"id": 0,
+      	"text": "Do you enjoy working in a team?",
+		"answers": [
+			{
+				"text": "Teamwork is in my blood",
+				"weight": 5
+			},
+			{
+				"text": "Yes, I do",
+				"weight": 3
+			},
+			{
+				"text": "I prefer to work alone",
+				"weight": 0
+			}
+		]
+	  },
+	  {
+      	"id": 1,
+      	"text": "How long have you been working with Swift?",
+		"answers": [
+			{
+				"text": "Never",
+				"weight": 0
+			},
+			{
+				"text": "Less than 1 year",
+				"weight": 1
+			},
+			{
+				"text": "Less than 2 years",
+				"weight": 3
+			},
+			{
+				"text": "More than 3 years",
+				"weight": 5
+			}
+		]
+	  },
+	  {
+      	"id": 2,
+      	"text": "How do you feel about automated tests?",
+		"answers": [
+			{
+				"text": "Mandatory",
+				"weight": 3
+			},
+			{
+				"text": "Waste of time",
+				"weight": 0
+			}
+		]
+	  }
+    ]
+}

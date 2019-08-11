@@ -3,17 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41446DDB22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */; };
+		41446DDC22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */; };
+		41446DDD22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */; };
+		41446DDF22FE244E007B8C4C /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = 41446DDE22FE244E007B8C4C /* questionnaire.json */; };
+		41446DE022FE244E007B8C4C /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = 41446DDE22FE244E007B8C4C /* questionnaire.json */; };
+		41446DE122FE244E007B8C4C /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = 41446DDE22FE244E007B8C4C /* questionnaire.json */; };
+		41446DE322FE2644007B8C4C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DE222FE2644007B8C4C /* Question.swift */; };
+		41446DE422FE2644007B8C4C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DE222FE2644007B8C4C /* Question.swift */; };
+		41446DE522FE2644007B8C4C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DE222FE2644007B8C4C /* Question.swift */; };
+		41446DE722FE2766007B8C4C /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DE622FE2766007B8C4C /* Answer.swift */; };
+		41446DE822FE2766007B8C4C /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DE622FE2766007B8C4C /* Answer.swift */; };
+		41446DE922FE2766007B8C4C /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DE622FE2766007B8C4C /* Answer.swift */; };
+		41446DEB22FE2A26007B8C4C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DEA22FE2A26007B8C4C /* Extensions.swift */; };
+		41446DEC22FE2A26007B8C4C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DEA22FE2A26007B8C4C /* Extensions.swift */; };
+		41446DED22FE2A26007B8C4C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DEA22FE2A26007B8C4C /* Extensions.swift */; };
+		41446DEF22FE320F007B8C4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DEE22FE320F007B8C4C /* Constants.swift */; };
+		41446DF022FE320F007B8C4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DEE22FE320F007B8C4C /* Constants.swift */; };
+		41446DF122FE320F007B8C4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DEE22FE320F007B8C4C /* Constants.swift */; };
+		41446DF422FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */; };
+		41446DF522FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */; };
+		41446DF622FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */; };
+		41446DF722FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */; };
+		41446DF822FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */; };
+		41446DF922FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */; };
+		4146796022FE134E00E11C2D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146795F22FE134E00E11C2D /* MainCoordinator.swift */; };
+		4146796122FE134E00E11C2D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146795F22FE134E00E11C2D /* MainCoordinator.swift */; };
+		4146796422FE139B00E11C2D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796322FE139B00E11C2D /* Coordinator.swift */; };
+		4146796522FE139B00E11C2D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796322FE139B00E11C2D /* Coordinator.swift */; };
+		4146796622FE139B00E11C2D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796322FE139B00E11C2D /* Coordinator.swift */; };
+		4146796822FE140300E11C2D /* QuestionnaireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796722FE140300E11C2D /* QuestionnaireService.swift */; };
+		4146796922FE140300E11C2D /* QuestionnaireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796722FE140300E11C2D /* QuestionnaireService.swift */; };
+		4146796A22FE140300E11C2D /* QuestionnaireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796722FE140300E11C2D /* QuestionnaireService.swift */; };
+		415CDA8622FF7A68000C11D6 /* QuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A5722FC9D36006EB2F6 /* QuestionnaireViewController.swift */; };
+		415CDA8A22FF7D00000C11D6 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CDA8922FF7D00000C11D6 /* OptionButton.swift */; };
+		415CDA8B22FF7D00000C11D6 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CDA8922FF7D00000C11D6 /* OptionButton.swift */; };
 		41600A5622FC9D36006EB2F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A5522FC9D36006EB2F6 /* AppDelegate.swift */; };
-		41600A5822FC9D36006EB2F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A5722FC9D36006EB2F6 /* ViewController.swift */; };
-		41600A5B22FC9D37006EB2F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41600A5922FC9D36006EB2F6 /* Main.storyboard */; };
+		41600A5822FC9D36006EB2F6 /* QuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A5722FC9D36006EB2F6 /* QuestionnaireViewController.swift */; };
 		41600A5D22FC9D38006EB2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41600A5C22FC9D38006EB2F6 /* Assets.xcassets */; };
 		41600A6022FC9D38006EB2F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41600A5E22FC9D38006EB2F6 /* LaunchScreen.storyboard */; };
 		41600A6B22FC9D38006EB2F6 /* QuestionnaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A6A22FC9D38006EB2F6 /* QuestionnaireTests.swift */; };
 		41600A7622FC9D38006EB2F6 /* QuestionnaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A7522FC9D38006EB2F6 /* QuestionnaireUITests.swift */; };
+		62D9F08281324E3E4E8945CA /* Pods_Questionnaire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593C285469C7D3D464E95530 /* Pods_Questionnaire.framework */; };
+		BA1D42A5D740EEF2FA8015FE /* Pods_QuestionnaireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE65B739FE20FAE566551F26 /* Pods_QuestionnaireTests.framework */; };
+		CCF11A62F99F1100951931BF /* Pods_QuestionnaireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A8C00DCABC12F4757224E7 /* Pods_QuestionnaireUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +71,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30A8C00DCABC12F4757224E7 /* Pods_QuestionnaireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestionnaireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewModel.swift; sourceTree = "<group>"; };
+		41446DDE22FE244E007B8C4C /* questionnaire.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questionnaire.json; sourceTree = "<group>"; };
+		41446DE222FE2644007B8C4C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		41446DE622FE2766007B8C4C /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		41446DEA22FE2A26007B8C4C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		41446DEE22FE320F007B8C4C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionCollectionViewCell.xib; sourceTree = "<group>"; };
+		4146795F22FE134E00E11C2D /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		4146796322FE139B00E11C2D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		4146796722FE140300E11C2D /* QuestionnaireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireService.swift; sourceTree = "<group>"; };
+		415CDA8922FF7D00000C11D6 /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
 		41600A5222FC9D36006EB2F6 /* Questionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41600A5522FC9D36006EB2F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41600A5722FC9D36006EB2F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41600A5A22FC9D36006EB2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41600A5722FC9D36006EB2F6 /* QuestionnaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewController.swift; sourceTree = "<group>"; };
 		41600A5C22FC9D38006EB2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41600A5F22FC9D38006EB2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41600A6122FC9D38006EB2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +96,14 @@
 		41600A7122FC9D38006EB2F6 /* QuestionnaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionnaireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41600A7522FC9D38006EB2F6 /* QuestionnaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireUITests.swift; sourceTree = "<group>"; };
 		41600A7722FC9D38006EB2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48402694441A35972BE76187 /* Pods-QuestionnaireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireTests.debug.xcconfig"; path = "Target Support Files/Pods-QuestionnaireTests/Pods-QuestionnaireTests.debug.xcconfig"; sourceTree = "<group>"; };
+		593C285469C7D3D464E95530 /* Pods_Questionnaire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Questionnaire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA6A13E3A41720DA6B38587 /* Pods-QuestionnaireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireUITests.release.xcconfig"; path = "Target Support Files/Pods-QuestionnaireUITests/Pods-QuestionnaireUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8546DA035E1060EDDBC5942B /* Pods-Questionnaire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questionnaire.release.xcconfig"; path = "Target Support Files/Pods-Questionnaire/Pods-Questionnaire.release.xcconfig"; sourceTree = "<group>"; };
+		98EB5056DE60B1FF4457AB3A /* Pods-QuestionnaireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireTests.release.xcconfig"; path = "Target Support Files/Pods-QuestionnaireTests/Pods-QuestionnaireTests.release.xcconfig"; sourceTree = "<group>"; };
+		BACA66C76FFD00424DD1F5AD /* Pods-QuestionnaireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuestionnaireUITests/Pods-QuestionnaireUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE65B739FE20FAE566551F26 /* Pods_QuestionnaireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestionnaireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E8904D392471A30E44F24 /* Pods-Questionnaire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questionnaire.debug.xcconfig"; path = "Target Support Files/Pods-Questionnaire/Pods-Questionnaire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D9F08281324E3E4E8945CA /* Pods_Questionnaire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1D42A5D740EEF2FA8015FE /* Pods_QuestionnaireTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +127,100 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF11A62F99F1100951931BF /* Pods_QuestionnaireUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4146795622FE11E900E11C2D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				41446DDE22FE244E007B8C4C /* questionnaire.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4146795722FE120300E11C2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4146795822FE120900E11C2D /* Cells */,
+				415CDA8822FF7CD5000C11D6 /* Custom */,
+				41600A5722FC9D36006EB2F6 /* QuestionnaireViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4146795822FE120900E11C2D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */,
+				41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4146795922FE121200E11C2D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4146795A22FE121B00E11C2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41600A5522FC9D36006EB2F6 /* AppDelegate.swift */,
+				41446DEE22FE320F007B8C4C /* Constants.swift */,
+				4146796322FE139B00E11C2D /* Coordinator.swift */,
+				41446DEA22FE2A26007B8C4C /* Extensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4146795B22FE123100E11C2D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				41600A5E22FC9D38006EB2F6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4146795C22FE126E00E11C2D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4146796722FE140300E11C2D /* QuestionnaireService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4146795D22FE127700E11C2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41446DE622FE2766007B8C4C /* Answer.swift */,
+				41446DE222FE2644007B8C4C /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4146795E22FE129800E11C2D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4146795F22FE134E00E11C2D /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		415CDA8822FF7CD5000C11D6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				415CDA8922FF7D00000C11D6 /* OptionButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		41600A4922FC9D36006EB2F6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +228,8 @@
 				41600A6922FC9D38006EB2F6 /* QuestionnaireTests */,
 				41600A7422FC9D38006EB2F6 /* QuestionnaireUITests */,
 				41600A5322FC9D36006EB2F6 /* Products */,
+				BA340D7611139CDB5C776202 /* Pods */,
+				F31AF335545A337B7F88ED47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +246,16 @@
 		41600A5422FC9D36006EB2F6 /* Questionnaire */ = {
 			isa = PBXGroup;
 			children = (
-				41600A5522FC9D36006EB2F6 /* AppDelegate.swift */,
-				41600A5722FC9D36006EB2F6 /* ViewController.swift */,
-				41600A5922FC9D36006EB2F6 /* Main.storyboard */,
 				41600A5C22FC9D38006EB2F6 /* Assets.xcassets */,
-				41600A5E22FC9D38006EB2F6 /* LaunchScreen.storyboard */,
+				4146795E22FE129800E11C2D /* Coordinators */,
 				41600A6122FC9D38006EB2F6 /* Info.plist */,
+				4146795622FE11E900E11C2D /* Mocks */,
+				4146795D22FE127700E11C2D /* Models */,
+				4146795C22FE126E00E11C2D /* Services */,
+				4146795B22FE123100E11C2D /* Storyboards */,
+				4146795A22FE121B00E11C2D /* Supporting Files */,
+				4146795922FE121200E11C2D /* ViewModels */,
+				4146795722FE120300E11C2D /* Views */,
 			);
 			path = Questionnaire;
 			sourceTree = "<group>";
@@ -110,8 +263,8 @@
 		41600A6922FC9D38006EB2F6 /* QuestionnaireTests */ = {
 			isa = PBXGroup;
 			children = (
-				41600A6A22FC9D38006EB2F6 /* QuestionnaireTests.swift */,
 				41600A6C22FC9D38006EB2F6 /* Info.plist */,
+				41600A6A22FC9D38006EB2F6 /* QuestionnaireTests.swift */,
 			);
 			path = QuestionnaireTests;
 			sourceTree = "<group>";
@@ -119,10 +272,33 @@
 		41600A7422FC9D38006EB2F6 /* QuestionnaireUITests */ = {
 			isa = PBXGroup;
 			children = (
-				41600A7522FC9D38006EB2F6 /* QuestionnaireUITests.swift */,
 				41600A7722FC9D38006EB2F6 /* Info.plist */,
+				41600A7522FC9D38006EB2F6 /* QuestionnaireUITests.swift */,
 			);
 			path = QuestionnaireUITests;
+			sourceTree = "<group>";
+		};
+		BA340D7611139CDB5C776202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E8904D392471A30E44F24 /* Pods-Questionnaire.debug.xcconfig */,
+				8546DA035E1060EDDBC5942B /* Pods-Questionnaire.release.xcconfig */,
+				48402694441A35972BE76187 /* Pods-QuestionnaireTests.debug.xcconfig */,
+				98EB5056DE60B1FF4457AB3A /* Pods-QuestionnaireTests.release.xcconfig */,
+				BACA66C76FFD00424DD1F5AD /* Pods-QuestionnaireUITests.debug.xcconfig */,
+				6AA6A13E3A41720DA6B38587 /* Pods-QuestionnaireUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F31AF335545A337B7F88ED47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593C285469C7D3D464E95530 /* Pods_Questionnaire.framework */,
+				BE65B739FE20FAE566551F26 /* Pods_QuestionnaireTests.framework */,
+				30A8C00DCABC12F4757224E7 /* Pods_QuestionnaireUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41600A7A22FC9D38006EB2F6 /* Build configuration list for PBXNativeTarget "Questionnaire" */;
 			buildPhases = (
+				868D735D4A174E6C9D2F4DBC /* [CP] Check Pods Manifest.lock */,
 				41600A4E22FC9D36006EB2F6 /* Sources */,
 				41600A4F22FC9D36006EB2F6 /* Frameworks */,
 				41600A5022FC9D36006EB2F6 /* Resources */,
+				538CFBFAD6600C3EF569E68B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41600A7D22FC9D38006EB2F6 /* Build configuration list for PBXNativeTarget "QuestionnaireTests" */;
 			buildPhases = (
+				D0ECE324B7096CE694125D0C /* [CP] Check Pods Manifest.lock */,
 				41600A6222FC9D38006EB2F6 /* Sources */,
 				41600A6322FC9D38006EB2F6 /* Frameworks */,
 				41600A6422FC9D38006EB2F6 /* Resources */,
@@ -167,6 +346,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41600A8022FC9D38006EB2F6 /* Build configuration list for PBXNativeTarget "QuestionnaireUITests" */;
 			buildPhases = (
+				2359BA5A70E1B9B22468562E /* [CP] Check Pods Manifest.lock */,
 				41600A6D22FC9D38006EB2F6 /* Sources */,
 				41600A6E22FC9D38006EB2F6 /* Frameworks */,
 				41600A6F22FC9D38006EB2F6 /* Resources */,
@@ -231,7 +411,8 @@
 			files = (
 				41600A6022FC9D38006EB2F6 /* LaunchScreen.storyboard in Resources */,
 				41600A5D22FC9D38006EB2F6 /* Assets.xcassets in Resources */,
-				41600A5B22FC9D37006EB2F6 /* Main.storyboard in Resources */,
+				41446DF722FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */,
+				41446DDF22FE244E007B8C4C /* questionnaire.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41446DF822FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */,
+				41446DE022FE244E007B8C4C /* questionnaire.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +429,116 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41446DF922FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */,
+				41446DE122FE244E007B8C4C /* questionnaire.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2359BA5A70E1B9B22468562E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestionnaireUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		538CFBFAD6600C3EF569E68B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Questionnaire/Pods-Questionnaire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Questionnaire/Pods-Questionnaire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Questionnaire/Pods-Questionnaire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868D735D4A174E6C9D2F4DBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Questionnaire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0ECE324B7096CE694125D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestionnaireTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41600A4E22FC9D36006EB2F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41600A5822FC9D36006EB2F6 /* ViewController.swift in Sources */,
+				41446DDB22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */,
+				41446DF422FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */,
+				415CDA8A22FF7D00000C11D6 /* OptionButton.swift in Sources */,
+				41446DEB22FE2A26007B8C4C /* Extensions.swift in Sources */,
+				4146796422FE139B00E11C2D /* Coordinator.swift in Sources */,
+				41600A5822FC9D36006EB2F6 /* QuestionnaireViewController.swift in Sources */,
+				4146796022FE134E00E11C2D /* MainCoordinator.swift in Sources */,
+				41446DEF22FE320F007B8C4C /* Constants.swift in Sources */,
 				41600A5622FC9D36006EB2F6 /* AppDelegate.swift in Sources */,
+				41446DE322FE2644007B8C4C /* Question.swift in Sources */,
+				4146796822FE140300E11C2D /* QuestionnaireService.swift in Sources */,
+				41446DE722FE2766007B8C4C /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +546,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41446DF522FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */,
 				41600A6B22FC9D38006EB2F6 /* QuestionnaireTests.swift in Sources */,
+				415CDA8B22FF7D00000C11D6 /* OptionButton.swift in Sources */,
+				4146796922FE140300E11C2D /* QuestionnaireService.swift in Sources */,
+				4146796122FE134E00E11C2D /* MainCoordinator.swift in Sources */,
+				41446DEC22FE2A26007B8C4C /* Extensions.swift in Sources */,
+				41446DE822FE2766007B8C4C /* Answer.swift in Sources */,
+				41446DE422FE2644007B8C4C /* Question.swift in Sources */,
+				4146796522FE139B00E11C2D /* Coordinator.swift in Sources */,
+				41446DDC22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */,
+				415CDA8622FF7A68000C11D6 /* QuestionnaireViewController.swift in Sources */,
+				41446DF022FE320F007B8C4C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +565,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41446DF622FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */,
 				41600A7622FC9D38006EB2F6 /* QuestionnaireUITests.swift in Sources */,
+				4146796A22FE140300E11C2D /* QuestionnaireService.swift in Sources */,
+				41446DED22FE2A26007B8C4C /* Extensions.swift in Sources */,
+				41446DE922FE2766007B8C4C /* Answer.swift in Sources */,
+				41446DE522FE2644007B8C4C /* Question.swift in Sources */,
+				4146796622FE139B00E11C2D /* Coordinator.swift in Sources */,
+				41446DDD22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */,
+				41446DF122FE320F007B8C4C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +593,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		41600A5922FC9D36006EB2F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41600A5A22FC9D36006EB2F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41600A5E22FC9D38006EB2F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,11 +722,13 @@
 		};
 		41600A7B22FC9D38006EB2F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1E8904D392471A30E44F24 /* Pods-Questionnaire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFG72U4M9F;
 				INFOPLIST_FILE = Questionnaire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,17 +736,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raulvbrito.Questionnaire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		41600A7C22FC9D38006EB2F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8546DA035E1060EDDBC5942B /* Pods-Questionnaire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFG72U4M9F;
 				INFOPLIST_FILE = Questionnaire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,12 +756,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raulvbrito.Questionnaire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		41600A7E22FC9D38006EB2F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48402694441A35972BE76187 /* Pods-QuestionnaireTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +784,7 @@
 		};
 		41600A7F22FC9D38006EB2F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EB5056DE60B1FF4457AB3A /* Pods-QuestionnaireTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +806,7 @@
 		};
 		41600A8122FC9D38006EB2F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACA66C76FFD00424DD1F5AD /* Pods-QuestionnaireUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +827,7 @@
 		};
 		41600A8222FC9D38006EB2F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA6A13E3A41720DA6B38587 /* Pods-QuestionnaireUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

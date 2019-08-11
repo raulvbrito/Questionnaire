@@ -11,23 +11,51 @@ import XCTest
 
 class QuestionnaireTests: XCTestCase {
 
+	var viewModelUnderTest: QuestionnaireViewModel!
+
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    	super.setUp()
+		
+    	viewModelUnderTest = QuestionnaireViewModel(QuestionnaireService())
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    	viewModelUnderTest = nil
+		
+    	super.tearDown()
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testFailedResult() {
+		let result = 6
+		
+		viewModelUnderTest.evaluate(result: result)
+		
+		XCTAssertLessThanOrEqual(viewModelUnderTest.result, 6, "Result not failing")
+		XCTAssertEqual(viewModelUnderTest.message, "Unfortunately, we don’t match!", "Wrong fail message")
+    }
+	
+    func testOKResult() {
+    	let result = 9
+		
+		viewModelUnderTest.evaluate(result: result)
+		
+		XCTAssertGreaterThanOrEqual(viewModelUnderTest.result, 7, "Result less than expected")
+		XCTAssertLessThanOrEqual(viewModelUnderTest.result, 9, "Result greater than expected")
+		XCTAssertEqual(viewModelUnderTest.message, "That looks good!", "Wrong OK message")
+    }
+	
+    func testExcelentResult() {
+    	let result = 10
+		
+		viewModelUnderTest.evaluate(result: result)
+		
+		XCTAssertGreaterThanOrEqual(viewModelUnderTest.result, 10, "Result less than expected")
+		XCTAssertEqual(viewModelUnderTest.message, "Excellent!", "Wrong Excelent message")
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
+    func testComputingResultsPerformance() {
         self.measure {
-            // Put the code you want to measure the time of here.
+        	viewModelUnderTest.evaluate(result: 5)
         }
     }
 
