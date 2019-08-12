@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		41446DDB22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */; };
 		41446DDC22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */; };
-		41446DDD22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */; };
 		41446DDF22FE244E007B8C4C /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = 41446DDE22FE244E007B8C4C /* questionnaire.json */; };
 		41446DE022FE244E007B8C4C /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = 41446DDE22FE244E007B8C4C /* questionnaire.json */; };
 		41446DE122FE244E007B8C4C /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = 41446DDE22FE244E007B8C4C /* questionnaire.json */; };
@@ -27,7 +26,6 @@
 		41446DF122FE320F007B8C4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DEE22FE320F007B8C4C /* Constants.swift */; };
 		41446DF422FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */; };
 		41446DF522FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */; };
-		41446DF622FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41446DF222FE3BF1007B8C4C /* QuestionCollectionViewCell.swift */; };
 		41446DF722FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */; };
 		41446DF822FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */; };
 		41446DF922FE3BF1007B8C4C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41446DF322FE3BF1007B8C4C /* QuestionCollectionViewCell.xib */; };
@@ -38,7 +36,6 @@
 		4146796622FE139B00E11C2D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796322FE139B00E11C2D /* Coordinator.swift */; };
 		4146796822FE140300E11C2D /* QuestionnaireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796722FE140300E11C2D /* QuestionnaireService.swift */; };
 		4146796922FE140300E11C2D /* QuestionnaireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796722FE140300E11C2D /* QuestionnaireService.swift */; };
-		4146796A22FE140300E11C2D /* QuestionnaireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146796722FE140300E11C2D /* QuestionnaireService.swift */; };
 		415CDA8622FF7A68000C11D6 /* QuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A5722FC9D36006EB2F6 /* QuestionnaireViewController.swift */; };
 		415CDA8A22FF7D00000C11D6 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CDA8922FF7D00000C11D6 /* OptionButton.swift */; };
 		415CDA8B22FF7D00000C11D6 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CDA8922FF7D00000C11D6 /* OptionButton.swift */; };
@@ -50,7 +47,6 @@
 		41600A7622FC9D38006EB2F6 /* QuestionnaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41600A7522FC9D38006EB2F6 /* QuestionnaireUITests.swift */; };
 		62D9F08281324E3E4E8945CA /* Pods_Questionnaire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593C285469C7D3D464E95530 /* Pods_Questionnaire.framework */; };
 		BA1D42A5D740EEF2FA8015FE /* Pods_QuestionnaireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE65B739FE20FAE566551F26 /* Pods_QuestionnaireTests.framework */; };
-		CCF11A62F99F1100951931BF /* Pods_QuestionnaireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A8C00DCABC12F4757224E7 /* Pods_QuestionnaireUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +67,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30A8C00DCABC12F4757224E7 /* Pods_QuestionnaireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestionnaireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41446DDA22FE23CC007B8C4C /* QuestionnaireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewModel.swift; sourceTree = "<group>"; };
 		41446DDE22FE244E007B8C4C /* questionnaire.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questionnaire.json; sourceTree = "<group>"; };
 		41446DE222FE2644007B8C4C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -98,10 +93,8 @@
 		41600A7722FC9D38006EB2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48402694441A35972BE76187 /* Pods-QuestionnaireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireTests.debug.xcconfig"; path = "Target Support Files/Pods-QuestionnaireTests/Pods-QuestionnaireTests.debug.xcconfig"; sourceTree = "<group>"; };
 		593C285469C7D3D464E95530 /* Pods_Questionnaire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Questionnaire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AA6A13E3A41720DA6B38587 /* Pods-QuestionnaireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireUITests.release.xcconfig"; path = "Target Support Files/Pods-QuestionnaireUITests/Pods-QuestionnaireUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8546DA035E1060EDDBC5942B /* Pods-Questionnaire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questionnaire.release.xcconfig"; path = "Target Support Files/Pods-Questionnaire/Pods-Questionnaire.release.xcconfig"; sourceTree = "<group>"; };
 		98EB5056DE60B1FF4457AB3A /* Pods-QuestionnaireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireTests.release.xcconfig"; path = "Target Support Files/Pods-QuestionnaireTests/Pods-QuestionnaireTests.release.xcconfig"; sourceTree = "<group>"; };
-		BACA66C76FFD00424DD1F5AD /* Pods-QuestionnaireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionnaireUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuestionnaireUITests/Pods-QuestionnaireUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE65B739FE20FAE566551F26 /* Pods_QuestionnaireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestionnaireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1E8904D392471A30E44F24 /* Pods-Questionnaire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questionnaire.debug.xcconfig"; path = "Target Support Files/Pods-Questionnaire/Pods-Questionnaire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,7 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF11A62F99F1100951931BF /* Pods_QuestionnaireUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +277,6 @@
 				8546DA035E1060EDDBC5942B /* Pods-Questionnaire.release.xcconfig */,
 				48402694441A35972BE76187 /* Pods-QuestionnaireTests.debug.xcconfig */,
 				98EB5056DE60B1FF4457AB3A /* Pods-QuestionnaireTests.release.xcconfig */,
-				BACA66C76FFD00424DD1F5AD /* Pods-QuestionnaireUITests.debug.xcconfig */,
-				6AA6A13E3A41720DA6B38587 /* Pods-QuestionnaireUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -296,7 +286,6 @@
 			children = (
 				593C285469C7D3D464E95530 /* Pods_Questionnaire.framework */,
 				BE65B739FE20FAE566551F26 /* Pods_QuestionnaireTests.framework */,
-				30A8C00DCABC12F4757224E7 /* Pods_QuestionnaireUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,7 +335,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41600A8022FC9D38006EB2F6 /* Build configuration list for PBXNativeTarget "QuestionnaireUITests" */;
 			buildPhases = (
-				2359BA5A70E1B9B22468562E /* [CP] Check Pods Manifest.lock */,
 				41600A6D22FC9D38006EB2F6 /* Sources */,
 				41600A6E22FC9D38006EB2F6 /* Frameworks */,
 				41600A6F22FC9D38006EB2F6 /* Resources */,
@@ -437,28 +425,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2359BA5A70E1B9B22468562E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QuestionnaireUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		538CFBFAD6600C3EF569E68B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,14 +531,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41446DF622FE3BF1007B8C4C /* QuestionCollectionViewCell.swift in Sources */,
 				41600A7622FC9D38006EB2F6 /* QuestionnaireUITests.swift in Sources */,
-				4146796A22FE140300E11C2D /* QuestionnaireService.swift in Sources */,
 				41446DED22FE2A26007B8C4C /* Extensions.swift in Sources */,
 				41446DE922FE2766007B8C4C /* Answer.swift in Sources */,
 				41446DE522FE2644007B8C4C /* Question.swift in Sources */,
 				4146796622FE139B00E11C2D /* Coordinator.swift in Sources */,
-				41446DDD22FE23CC007B8C4C /* QuestionnaireViewModel.swift in Sources */,
 				41446DF122FE320F007B8C4C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -806,7 +769,6 @@
 		};
 		41600A8122FC9D38006EB2F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BACA66C76FFD00424DD1F5AD /* Pods-QuestionnaireUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -827,7 +789,6 @@
 		};
 		41600A8222FC9D38006EB2F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AA6A13E3A41720DA6B38587 /* Pods-QuestionnaireUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
